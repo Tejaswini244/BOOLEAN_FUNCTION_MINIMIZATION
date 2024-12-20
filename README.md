@@ -12,11 +12,9 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 Hardware – PCs, Cyclone II , USB flasher
 
-**Software – Quartus prime**
-
 **Theory**
 
-**Logic Diagram**
+Boolean Algebra is a branch of algebra that deals with boolean values—true and false. It is fundamental to digital logic design and computer science, providing a mathematical framework for describing logical operations and expressions
 
 **Procedure**
 
@@ -33,18 +31,57 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Program:**
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 
-Developed by: RegisterNumber:*/
+F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D 
 
+module funct1(a,b,c,d,f1);
 
-**RTL realization**
+input a,b,c,d;
 
-**Output:**
+output f1;
+
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+
+endmodule
+
+F2=xy’z+x’y’z+w’xy+wx’y+wxy
+
+module funct2(w,x,y,z,f2);
+
+input w,x,y,z;
+
+output f2;
+
+assign f2=((~y & z)|( w & y )|(x & y));
+
+endmodule
+
+Developed by: TEJASWINI R
+
+RegisterNumber:24009408
+
 
 **RTL**
 
-**Timing Diagram**
+F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D 
+
+![experiment 2 f1](https://github.com/user-attachments/assets/99b7400d-eb67-425b-b409-f5d55cbf3183)
+
+F2=xy’z+x’y’z+w’xy+wx’y+wxy
+
+![experiment 2 f2](https://github.com/user-attachments/assets/475ad4ff-1d3f-4dcb-8ad2-14f0032756e0)
+
+**Output:**
+
+F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D 
+
+![exp 2 f1output](https://github.com/user-attachments/assets/4bca4fe2-2707-49cf-a650-79402c0d6533)
+
+
+F2=xy’z+x’y’z+w’xy+wx’y+wxy
+
+![exp2 f2 out](https://github.com/user-attachments/assets/e196acd7-d822-4265-a062-00d7200d306a)
 
 **Result:**
 
