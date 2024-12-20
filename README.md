@@ -28,7 +28,6 @@ Boolean Algebra is a branch of algebra that deals with boolean values—true and
 
 5.	For different input combinations generate the timing diagram.
 
-
 **Program:**
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
@@ -61,6 +60,9 @@ Developed by: TEJASWINI R
 
 RegisterNumber:24009408
 
+**Truth Table**
+
+![WhatsApp Image 2024-12-20 at 5 07 56 PM](https://github.com/user-attachments/assets/faff5b68-1a98-4775-aaad-4464d5c26f8e)
 
 **RTL**
 
