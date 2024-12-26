@@ -60,9 +60,15 @@ Developed by: TEJASWINI R
 
 RegisterNumber:24009408
 
-**Truth Table**
+**BOOLEAN_FUNCTION_MINIMIZATION**
 
-![WhatsApp Image 2024-12-20 at 5 07 56 PM](https://github.com/user-attachments/assets/faff5b68-1a98-4775-aaad-4464d5c26f8e)
+![WhatsApp Image 2024-12-21 at 11 58 24 AM](https://github.com/user-attachments/assets/c0b98c31-496b-4905-b90a-cff00d908e4a)
+
+![WhatsApp Image 2024-12-21 at 11 58 43 AM](https://github.com/user-attachments/assets/4bc3edbb-1105-4c66-9ebe-31739da39512)
+
+**TRUTH TABLE**
+
+![image](https://github.com/user-attachments/assets/b6ae484c-39e5-4873-82cd-a407ec657781)
 
 **RTL**
 
